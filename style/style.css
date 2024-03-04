@@ -1,0 +1,46 @@
+
+body{
+    text-align: center;
+    
+}
+
+.main{
+    display: none;
+    margin-top: 100px;
+}
+
+#start{
+    background-color: rgb(208, 65, 18);
+    margin-top: 300px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#puzzle-container {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    background-size: 300px 300px; /* Taille totale de l'image */
+    cursor: pointer;
+
+}
+
+.puzzle-piece-manager {
+    position:relative;
+    vertical-align: auto;
+    width: 100px;
+    height: 100px;
+    background-size: 300px 300px; /* Taille totale de l'image */
+    cursor: pointer;
+}
