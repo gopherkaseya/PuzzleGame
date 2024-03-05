@@ -7,7 +7,7 @@ for (let i = 1; i < 3 * 3; i++) {
 console.log(piecesOrder)
 
 // Appel de la fonction pour créer le puzzle avec une image spécifique et une grille 3x3
-createPuzzlePieces('images/lion.jpg', 3, 3);
+createPuzzlePieces('images/heart.jpg', 3, 3);
 
 document.addEventListener('keydown', (e) => 
     {

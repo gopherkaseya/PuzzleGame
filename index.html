@@ -7,8 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puzzle</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/carousel.css">
 </head>
 <body>
+
+    <div id="carousel" class="carousel">
+
+        <div id='iten_1' class="hideLeft">
+         <img src="images/heart.jpg">
+       </div>
+ 
+       <div id='item_2' class="prevLeftSecond">
+         <img src="images/img.jpg">
+       </div>
+ 
+       <div id='item_3' class="prev">
+         <img src="images/lion.jpg">
+       </div>
+ 
+       <div id='item_4' class="selected">
+         <img src="images/Luffy.jpg">
+       </div>
+ 
+       <div id='item_5' class="next">
+         <img src="images/oiseau.jpg">
+       </div>
+ 
+       <div id='item_6' class="nextRightSecond">
+         <img src="https://cdn.pixabay.com/photo/2017/02/09/09/11/starry-sky-2051448__340.jpg">
+       </div>
+ 
+       <div id='item_7' class="hideRight">
+         <img src="https://cdn.pixabay.com/photo/2011/12/15/11/37/galaxy-11188__340.jpg">
+       </div>
+ 
+       <div id='item_8' class="hideRight">
+         <img src="https://cdn.pixabay.com/photo/2011/12/15/11/32/pismis-24-11186__340.jpg">
+       </div>
+ 
+     </div>
+     <div class="buttons" id="">
+    	<button class="button-82-pushable" role="button" id="prev"><span class="button-82-shadow"></span><span class="button-82-edge"></span><span class="button-82-front text">Previous</span></button>
+
+
+    	<button class="button-82-pushable" role="button" id="next"><span class="button-82-shadow"></span><span class="button-82-edge"></span><span class="button-82-front text">Next</span></button>
+    </div>
 
     <div class="main">
         <div id="puzzle-container"></div>
@@ -20,5 +63,6 @@
 
     <script src="js/script.js" defer></script>
     <script src="js/game_control.js"></script>
+    <script src="js/carousel.js"></script>
 </body>
 </html>
